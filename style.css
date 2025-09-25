@@ -31,12 +31,14 @@ header-content {
 }
 header-content .video-bg-container {
     height: 500px;
+    flex-wrap: wrap;
 }
 
 header-content .text-wrap { 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 header-content .title {
     text-transform: uppercase;
@@ -66,6 +68,13 @@ header-content .sub-title {
     font-size: 1.2em;
     max-width: 18em;
 }
+header-content .btn a{
+    color: white;
+    font: 1.1em;
+    text-transform: uppercase;
+    text-decoration: underline 5px #A9242B;
+    
+}
 
 
 
@@ -86,13 +95,9 @@ header-content .sub-title {
         padding: 0 5.9em;
     }
 header-content .video-bg-container {
-    height: 400px;
+    height: 250px;
     z-index: -1;
     overflow: hidden;
-}
-iframe {
-    height: 650px;
-    transform: translateY(-150px);
 }
 
 header-content .text-wrap { 
@@ -114,12 +119,14 @@ header-content .title {
         font-family: "Alumni Sans", sans-serif;
         font-weight: 100;
         font-size: 2.5em;
+        pad: 0;
         z-index: 1;
     }
     
     h1 {
         font-family: "Alumni Sans", sans-serif;
         font-size: 6em;
+        margin-bottom: .2em;
         
         
         span {
@@ -130,7 +137,7 @@ header-content .title {
 }
 
     header-content .sub-title {
-        margin-bottom: 1em;
+        margin-bottom: 3em;
         color: rgb(94, 93, 92);
         font-size: 1em;
         max-width: 16em;

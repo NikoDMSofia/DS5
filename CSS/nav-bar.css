@@ -25,7 +25,7 @@ body{
     background-color: var(--body-color);
 }
 body {
-    --body-color: #00030B;
+    --body-color: #18191A;
     --nav-color: #242526;
     --side-nav: #242526;
     --text-color: #CCC;
@@ -58,7 +58,7 @@ nav .nav-bar .sidebarOpen{
     display: none; 
 }
 nav .nav-bar .logo img{
-    width: 60px;
+    width: 100px;
 }
 .menu .logo-toggle{
     display: none;
@@ -123,7 +123,7 @@ nav .nav-bar .logo img{
 
 
 
-@media (max-width: 850px) {
+@media (max-width: 790px) {
     nav .nav-bar .sidebarOpen{
         display: block;
     }
@@ -167,6 +167,6 @@ nav .nav-bar .logo img{
         color: white;
     }
     nav .nav-bar .logo img{
-        width: 50px;
+        width: 80px;
     }
 }
