@@ -179,7 +179,7 @@ header-content .sub-title {
         font-weight: 300;
         padding: .5em;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 4px;
 
     }
 }
@@ -188,24 +188,21 @@ header-content .sub-title {
 .logos{
     overflow: hidden;
     white-space: nowrap;
+    
 }
 .logos-slide {
     display: inline-block;
-    animation: slide 30s linear infinite;
+    animation: slide 10s linear infinite;
+    img {
+        width: 32em;
+    }
     
 }
 
 
 
 
-@keyframes name-slide {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
+
 @keyframes slide {
     from {
         transform: translateX(0);
