@@ -21,11 +21,10 @@ iframe {
 header {
     position: relative;
     height: 950px;
-    background-image: url(Images/slide/girichki.png);
+    background-image: url(Images/fitness-package6.webp);
     background-position:  center;
     background-repeat: no-repeat;
     z-index: -999;
-        border-image: fill 1 linear-gradient(rgba(0, 0, 0, 0.856));
     
 }
 
