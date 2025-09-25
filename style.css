@@ -74,7 +74,7 @@ header-content .sub-title {
 }
 header-content .btn {
     position: relative;
-    width: 134px;
+    width: 125px;
     
     
 }
@@ -84,7 +84,6 @@ header-content .btn a{
     text-decoration: none; 
     position: relative;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 header-content .btn::after{
     content: "";
@@ -175,10 +174,10 @@ header-content .sub-title {
     width: 100%;
     h1 {
         font-family: "Alumni Sans", sans-serif;
-        font-size: 1.5em;
+        font-size: 1.2em;
         text-align: center;
         font-weight: 300;
-        padding: 1em;
+        padding: .5em;
         text-transform: uppercase;
         letter-spacing: 2px;
 
