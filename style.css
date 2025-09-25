@@ -86,8 +86,13 @@ header-content .sub-title {
         padding: 0 5.9em;
     }
 header-content .video-bg-container {
-    height: 300px;
+    height: 400px;
     z-index: -1;
+    overflow: hidden;
+}
+iframe {
+    height: 650px;
+    transform: translateY(-150px);
 }
 
 header-content .text-wrap { 
@@ -129,5 +134,15 @@ header-content .title {
         color: rgb(94, 93, 92);
         font-size: 1em;
         max-width: 16em;
+    }
+}
+
+
+@media (max-width: 580px) {
+    header-content {
+        display: flex;
+        height: 500px;
+        flex-wrap: wrap;
+        padding: 1em;
     }
 }
