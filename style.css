@@ -1,81 +1,130 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Alumni Sans", sans-serif; */
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
-body {
-    background-color: rgb(0, 0, 0);
-   
-    
-
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
-@media (min-width: 719px) {
-     body {
-        div {
-            position: absolute;
-            margin: auto;
-            width: 100%;
-            height: 100%;
+header {
+    height: 950px;
+}
 
+header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
 
+header-content {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+header-content .video-bg-container {
+    height: 500px;
+}
+
+header-content .text-wrap { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header-content .title {
+    text-transform: uppercase;
+    color: white;
+    max-width: 23em;
+    line-height: 80px;
+    h2 {
+        font-family: "Alumni Sans", sans-serif;
+        font-weight: 100;
+        font-size: 4em;
+    }
+    
+    h1 {
+        font-family: "Alumni Sans", sans-serif;
+        font-size: 6em;
+        
+        
+        span {
+            font-family: "Alumni Sans", sans-serif;    
+            color: #A9242B;
         }
-      .container{
+    }
+}
+
+header-content .sub-title {
+    color: rgb(94, 93, 92);
+    font-size: 1.2em;
+    max-width: 18em;
+}
+
+
+
+
+
+@media (max-width: 850px) {
+    header-container {
         display: flex;
-        flex-direction: column;
-        align-items:center ;
         justify-content: center;
-        color: rgb(138, 21, 21);
-        font-size: x-large;
-      }
-
-      .head {
-        opacity: 0;
-      }
-
-     }
+        align-items: center;
+        height: 750px;
     }
 
-
-@media (max-width: 720px) {
-     body {
-       background-color: rgb(184, 183, 183);
-     }
-     div.container {
-        opacity: 0;
-     }
-     .content {
+    header-content {
         display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-     }
-     .background {
-        position: absolute;
-        background-color: rgba(145, 15, 15, 0.651);
-        width: 100%;
-        height: 30ch;
-        background-image: url(images/bacground.jpg) ;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-clip: border-box;
-     }
-     .head {
-        position: absolute;
-        top: 20%;
-        img {
-            position: ab;
-            width: 150px;
-            border-radius: 100%;
-            
-        }
-        .name {
-            position: relative;
-            font-size: 3.5ch;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
-        }
-      }
+        height: 500px;
+        flex-wrap: wrap;
+        padding: 0 5.9em;
     }
+header-content .video-bg-container {
+    height: 300px;
+}
+
+header-content .text-wrap { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -2em;
+    align-items: center;
+
+}
+header-content .title {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    color: white;
+    max-width: 23em;
+    line-height: 70px;
+    h2 {
+        font-family: "Alumni Sans", sans-serif;
+        font-weight: 100;
+        font-size: 2.5em;
+    }
+    
+    h1 {
+        font-family: "Alumni Sans", sans-serif;
+        font-size: 6em;
+        
+        
+        span {
+            font-family: "Alumni Sans", sans-serif;    
+            color: #A9242B;
+        }
+    }
+}
+
+    header-content .sub-title {
+        margin-bottom: 1em;
+        color: rgb(94, 93, 92);
+        font-size: 1em;
+        max-width: 16em;
+    }
+}
