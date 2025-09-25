@@ -87,6 +87,7 @@ header-content .sub-title {
     }
 header-content .video-bg-container {
     height: 300px;
+    z-index: -1;
 }
 
 header-content .text-wrap { 
