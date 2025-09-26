@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* font-family: "Alumni Sans", sans-serif; */
+/* font-family: "Alan Sans", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+
+.hero {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    flex-direction: column;
+    line-height: 40px;
+}
+.hero h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: white;
+    text-transform: capitalize;
+}
+.hero p {
+    color: rgb(197, 197, 197);
+    font-weight: 100;
+    letter-spacing: .5px;
+    
+}
+
+main {
+    padding: 2em;
+}
+.main-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    flex-direction: column;
+    gap: 4em;
+}
+.main-head-title h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+    max-width: 30em;
+    span {
+        font-style: italic;
+        font-weight: 100;
+        font-size: .9em;
+    }
+}
+.button a{
+    background-color: #A9242B;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    padding: .6em 1.6em;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.main-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 0 15em;
+}
+
+.main-middle-container {
+    margin-top: 3em;
+    width: fit-content;
+    text-align: center;
+}
+.main-middle-title {
+    margin: 1em;
+}
+.main-middle > div {
+    width: 40px;
+    height: 40px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: .7em;
+    
+}
+.main-middle > a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: black;
+    
+    
+}
+
+.main-middle {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 280px;
+}
+
+
+
+@media (max-width: 1449px) {
+    .main-flex {
+        padding: 0 10em;
+    }
+}
+@media (max-width: 1289px) {
+    .main-flex {
+        padding: 0 3em;
+    }
+}
+@media (max-width: 753px) {
+    .main-flex {
+        padding:  0em;
+    }
+    .hero h1 {
+        font-size: 2em;
+}
+    .hero p {
+        font-size: .8em;
+    }
+    .main-head-title h1 {
+        font-size: 1.2em;
+        font-weight: 400;
+    
+    }  
+}
+@media (max-width: 655px) {
+    .main-flex {
+        padding: 0 10em;
+    }
+    .display-none {
+        display: none;
+    }
+    main {
+        padding: 1em;
+}
+}
+@media (min-width: 656px) {
+    .collapsible , .content {
+        display: none;
+    }
+    
+}
+
+
+
+.main-bottom {
+    text-align: center;
+    margin: 0 0 5em 0;
+}
+
+
+
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+  margin-top: 0;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  margin-top: 0;
+}
+
+.active:after {
+  content: "\2212";
+  margin-top: 0;
+}
+
+.content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.logo-footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer {
+    background-color: #18191A; 
+    height:100%;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text],input[type=tel], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:  #A9242B;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:  #9c1b22;
+}
+
+.contact-form-container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+  max-width: 25em;
+}
+
+.logo-footer img {
+    width: 100px;
+}
