@@ -88,12 +88,12 @@ main {
 }
 
 .main-middle-container {
-    margin-top: 5em;
+    margin-top: 3em;
     width: fit-content;
     text-align: center;
 }
 .main-middle-title {
-    margin-bottom: 1em;
+    margin: 1em;
 }
 .main-middle > div {
     width: 40px;
@@ -152,11 +152,67 @@ main {
     
     }  
 }
+@media (max-width: 655px) {
+    .main-flex {
+        padding: 0 10em;
+    }
+    .display-none {
+        display: none;
+    }
+}
+@media (min-width: 656px) {
+    .collapsible , .content {
+        display: none;
+    }
+}
+
 
 
 .main-bottom {
     text-align: center;
-    margin: 5em;
+    margin: 0 0 5em 0;
 }
 
 
+
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+  margin-top: 0;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  margin-top: 0;
+}
+
+.active:after {
+  content: "\2212";
+  margin-top: 0;
+}
+
+.content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
