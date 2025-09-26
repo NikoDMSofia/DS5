@@ -147,16 +147,16 @@ main {
         font-size: .8em;
     }
     .main-head-title h1 {
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 400;
-    max-width: 30em;
-    span {
-        font-style: italic;
-        font-weight: 100;
-    }
+        font-size: 1.2em;
+        font-weight: 400;
+    
+    }  
 }
+
+
+.main-bottom {
+    text-align: center;
+    margin: 5em;
 }
 
 
