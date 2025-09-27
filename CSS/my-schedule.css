@@ -19,10 +19,6 @@ a {
 li {
     list-style: none;
 }
-.white-space {
-    height: 50px;
-    
-}
 
 
 
@@ -31,7 +27,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 150px;
     flex-direction: column;
     line-height: 25px;
 }
@@ -167,12 +163,18 @@ main {
     main {
         padding: 1em;
     }
+    .content {
+        margin-top: .06em;
+    }
     
 
 }
 @media (min-width: 656px) {
     .collapsible , .content {
         display: none;
+    }
+    .top{
+        padding: 50em;
     }
     
 }
