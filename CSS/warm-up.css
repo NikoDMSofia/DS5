@@ -46,7 +46,7 @@ img {
 
     a {
         padding: .9em 1em;
-        background-color: brown;
+        background-color: #A9242B;
         img {
             width: 10px;
         }
@@ -70,4 +70,41 @@ img {
         letter-spacing: .8px;
         }
 }
+
+
+main-video-container {
+    padding: 3em;
+    
+}
+
+.main-video-content{
+    padding: 0 3.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.video-warm-up-title h1 {
+    margin: 4em 0 2em 0;
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+ .video-warm-up-sub-title {
+    margin-top: .3em;
+    h2 {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+}
+.created-by-ds{
+    p {
+            font-family: "Vazirmatn", sans-serif;
+            font-size: 0.8em;
+            font-weight: 200;
+        }
+    }
 
