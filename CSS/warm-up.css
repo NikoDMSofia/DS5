@@ -85,11 +85,14 @@ main-video-container {
     
 }
 
-.video-warm-up-title h1, .video-basic-exsercises-title h1 {
+.video-warm-up-title h1, 
+.video-basic-exsercises-title h1, 
+.video-stretching-exsercises-container h1 {
     margin: 4em 0 2em 0;
     font-family: "Vazirmatn", sans-serif;
     font-size: 1.5em;
     font-weight: 300;
+    text-transform: uppercase;
 }
  .video-warm-up-sub-title {
     margin-top: .3em;
@@ -107,7 +110,17 @@ main-video-container {
             font-weight: 200;
         }
     }
-
-.margin-bottom {
-    margin-bottom: 5em;
+    
+    .margin-bottom {
+        margin-bottom: 5em;
+    }
+    
+    .smootie {
+        padding: 1em;
+    font-family: "Vazirmatn", sans-serif;
+    text-align: center;
+    p {
+        font-family: "Kalam", cursive;
+        font-size: 1.5em;
+    }
 }
