@@ -47,10 +47,10 @@ img {
     letter-spacing: 1px;
 
     a {
-        padding: .4em .5em;
+        padding: .9em 1em;
         background-color: brown;
         img {
-            width: 20px;
+            width: 10px;
         }
     }
 }
