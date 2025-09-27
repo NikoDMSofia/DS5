@@ -128,6 +128,10 @@ main {
 }
 
 
+.months-all-mob {
+    margin-bottom: 5em;
+}
+
 
 @media (max-width: 1449px) {
     .main-flex {
@@ -285,4 +289,9 @@ input[type=submit]:hover {
 
 .logo-footer img {
     width: 100px;
+}
+
+#training {
+    background-color: #A9242B;
+    color: white;
 }
