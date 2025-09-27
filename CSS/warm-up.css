@@ -85,11 +85,11 @@ main-video-container {
     
 }
 
-.video-warm-up-title h1 {
+.video-warm-up-title h1, .video-basic-exsercises-title h1 {
     margin: 4em 0 2em 0;
     font-family: "Vazirmatn", sans-serif;
     font-size: 1.5em;
-    font-weight: 400;
+    font-weight: 300;
 }
  .video-warm-up-sub-title {
     margin-top: .3em;
@@ -100,7 +100,7 @@ main-video-container {
 }
 
 }
-.created-by-ds{
+.created-by-ds, .exercises-number{
     p {
             font-family: "Vazirmatn", sans-serif;
             font-size: 0.8em;
