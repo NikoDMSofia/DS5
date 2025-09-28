@@ -31,8 +31,10 @@ img {
     align-items: center;
     h1 {
         font-family: "Roboto", sans-serif;
-        font-weight: 300;
+        font-weight: 500;
         font-size: 1em;
+        color: rgb(173, 173, 173);
+        letter-spacing: 1px;
     }
 }
 .mob-head-container footer {
@@ -50,6 +52,12 @@ img {
         img {
             width: 10px;
         }
+    }
+    p {
+        font-family: "Roboto", sans-serif;
+        color: rgb(173, 173, 173);
+        font-weight: 300;
+        font-size: 1.5em;
     }
 }
 .explanation {
