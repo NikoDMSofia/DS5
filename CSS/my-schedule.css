@@ -157,6 +157,7 @@ main {
         font-weight: 400;
     
     }  
+    
 }
 @media (max-width: 655px) {
     .main-flex {
@@ -180,6 +181,9 @@ main {
     }
     .top{
         padding: 50em;
+    }
+    months-all-mob h1 {
+        display: none;
     }
     
 }
@@ -285,6 +289,17 @@ input[type=submit]:hover {
   /* background-color: #f2f2f2; */
   padding: 20px;
   max-width: 25em;
+}
+
+
+months-all-mob h1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    padding: 0 0 1em 0;
+    text-decoration: underline;
+    text-transform: capitalize;
 }
 
 .logo-footer img {
