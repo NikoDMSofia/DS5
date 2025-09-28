@@ -91,6 +91,8 @@ main {
 }
 
 .main-middle-container {
+    background-color: rgb(245, 245, 245);
+    padding: 0 1em;
     margin-top: 1em;
     width: fit-content;
     text-align: center;
@@ -316,4 +318,7 @@ months-all-mob h1{
 
 .m-5em {
     margin-bottom: 5em;
+}
+.today {
+    border: 5px solid black;
 }
