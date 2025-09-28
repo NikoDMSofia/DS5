@@ -94,6 +94,7 @@ main {
     margin-top: 1em;
     width: fit-content;
     text-align: center;
+    height: 320px;
 }
 .main-middle-title {
     margin: 1em;
@@ -209,27 +210,26 @@ main {
 }
 
 .active, .collapsible:hover {
-  background: #eee;
-  color: black;
+  background-color: #777;
   margin-top: 0;
 }
 
 .collapsible:after {
-  content: '\002B';
-  color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-  margin-top: 0;
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    margin-top: 0;
 }
 
 .active:after {
-  content: "\2212";
-  margin-top: 0;
-  color: black;
+    content: "\2212";
+    margin-top: 0;
 }
 
 .content {
+    /* margin:0 0 4em 0; */
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
@@ -292,6 +292,13 @@ input[type=submit]:hover {
 }
 
 #training {
-    background-color: #A9242B;
+    background-color: #dd444b;
     color: white;
+}
+.finished {
+    opacity: .1;
+}
+
+.m-5em {
+    margin-bottom: 5em;
 }
