@@ -132,3 +132,37 @@ main-video-container {
         font-size: 1.5em;
     }
 }
+
+
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        height: 100dvh;
+        overflow: hidden;
+    }
+    .top-tab-wind-container {
+        max-width: 40em;
+    }
+    .tab-wind-container {
+        border: 1px solid purple;
+        height: 100dvh;
+        overflow: auto;
+    }
+    .main-video-content {
+        padding: 0 .5em;
+    }
+    .video-warm-up-container {
+        display: flex;
+        border: 1px solid red;
+        flex-direction: column;
+        
+        
+    }
+    .tab-wind-container-in {
+        display: flex;
+    }
+}
+@media (min-width: 1024px) {
+      
+}
