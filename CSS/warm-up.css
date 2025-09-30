@@ -140,17 +140,20 @@ main-video-container {
         justify-content: center;
         height: 100dvh;
         overflow: hidden;
+        gap: 1px;
     }
     .top-tab-wind-container {
-        max-width: 40em;
+        max-width: 60em;
     }
     .tab-wind-container {
         border: 1px solid purple;
         height: 100dvh;
         overflow: auto;
+        min-width: 20em;
     }
     .main-video-content {
-        padding: 0 .5em;
+        max-width: 40em;
+        padding: 0;
     }
     .video-warm-up-container {
         display: flex;
@@ -160,7 +163,7 @@ main-video-container {
         
     }
     .tab-wind-container-in {
-        display: flex;
+        /* display: flex; */
     }
 }
 @media (min-width: 1024px) {
