@@ -139,11 +139,12 @@ main-video-container {
         display: flex;
         justify-content: center;
         height: 100dvh;
-        overflow: hidden;
+        /* overflow: hidden; */
         gap: 1px;
     }
     .top-tab-wind-container {
         max-width: 60em;
+        height: 100dvh;
     }
     .tab-wind-container {
         border: 1px solid purple;
@@ -157,13 +158,18 @@ main-video-container {
     }
     .video-warm-up-container {
         display: flex;
-        border: 1px solid red;
         flex-direction: column;
         
         
     }
     .tab-wind-container-in {
         /* display: flex; */
+    }
+    .video-warm-up-title {
+        margin: -4em 0 -2em 0;
+    }
+    img {
+        max-width: 60%;
     }
 }
 @media (min-width: 1024px) {
