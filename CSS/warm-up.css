@@ -153,24 +153,38 @@ main-video-container {
         min-width: 20em;
     }
     .main-video-content {
+        border: 1px solid black;
         max-width: 40em;
-        padding: 0;
+        padding: .5em 0 1em .5em;
+        ;
     }
-    .video-warm-up-container {
+    /* .video-warm-up-container {
         display: flex;
         flex-direction: column;
         
         
-    }
-    .tab-wind-container-in {
-        /* display: flex; */
-    }
-    .video-warm-up-title {
-        margin: -4em 0 -2em 0;
-    }
+    } */
+    
+    
     img {
         max-width: 60%;
     }
+    .video-basic-exsercises-container{
+        height: 230px;
+        h1 {
+            padding-bottom: 1em;
+        }
+    }
+    .video-warm-up-title h1, 
+    .video-basic-exsercises-title h1, 
+    .video-stretching-exsercises-container h1 {
+    margin: 0em 0 0em 0;
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+    
 }
 @media (min-width: 1024px) {
       
