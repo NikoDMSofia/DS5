@@ -29,7 +29,7 @@ button {
   background-color: rgb(0, 0, 0);
   border: none;
   overflow: hidden;
-  animation: pop-bg 1.8s  ease forwards ;
+  animation: pop-bg 3.6s  ease forwards ;
 }
 .text {
   color: white;
@@ -69,12 +69,17 @@ button {
     opacity: 1;
   }
 }
+
 @keyframes pop-bg {
   0% {
     background-color: rgb(66, 66, 66);
   }
-  100% {
+  50% {
     opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
 
