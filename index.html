@@ -10,6 +10,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        transition: ease-in-out;
     }
     
     body {
@@ -91,9 +92,15 @@ button {
 
 
     <script>
-      function myFunction() {
-        window.location.href = 'https://nikodmsofia.github.io/DS5/HTML/my-schedule.html';
-      }
+      // function myFunction() {
+      //   window.location.href = 'https://nikodmsofia.github.io/DS5/HTML/my-schedule.html';
+      // }
+
+      window.addEventListener('DOMContentLoaded', () => {
+        setTimeout(()=> {
+          window.location.href ="https://nikodmsofia.github.io/DS5/HTML/my-schedule.html"
+        } , 2000)
+      })
     </script>
 
 
