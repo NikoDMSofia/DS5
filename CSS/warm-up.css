@@ -62,7 +62,7 @@ img {
     justify-content: space-between;
     align-items: center;
     letter-spacing: 1px;
-
+    
     a {
         padding: .9em 1em;
         background-color: #A9242B;
@@ -93,7 +93,7 @@ img {
         text-align: justify;
         font-weight: 200;
         letter-spacing: .8px;
-        }
+    }
 }
 
 
@@ -119,29 +119,29 @@ main-video-container {
     font-weight: 300;
     text-transform: uppercase;
 }
- .video-warm-up-sub-title {
+.video-warm-up-sub-title {
     margin-top: .3em;
     h2 {
-    font-family: "Vazirmatn", sans-serif;
-    font-size: 1.2em;
-    font-weight: 300;
-}
-
+        font-family: "Vazirmatn", sans-serif;
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+    
 }
 .created-by-ds, .exercises-number{
     p {
-            font-family: "Vazirmatn", sans-serif;
-            font-size: 0.8em;
-            font-weight: 200;
-        }
+        font-family: "Vazirmatn", sans-serif;
+        font-size: 0.8em;
+        font-weight: 200;
     }
-    
-    .margin-bottom {
-        margin-bottom: 5em;
-    }
-    
-    .smootie {
-        padding: 1em;
+}
+
+.margin-bottom {
+    margin-bottom: 5em;
+}
+
+.smootie {
+    padding: 1em;
     font-family: "Vazirmatn", sans-serif;
     text-align: center;
     p {
@@ -166,17 +166,17 @@ main-video-container {
         overflow: auto;
     }
     .main-video-content{
-    padding: 0 1em;
-    position: relative;
-    border-left: 1px solid rgba(49, 49, 49, 0.432);
+        padding: 0 1em;
+        position: relative;
+        border-left: 1px solid #00113c;
     }
     .main-video-content::after{
-    content: "";
-    width: 100%;
-    height: 5px;
-    bottom: 40px;
-    position: absolute;
-    background-color: rgba(49, 49, 49, 0.432);
+        content: "";
+        width: 100%;
+        height: 1px;
+        bottom: 40px;
+        position: absolute;
+        background-color: #00113c;
     }
     .explanation {
         padding-top: .5em;
@@ -194,7 +194,7 @@ main-video-container {
         display: none;
     }
     .video-basic-exsercises-title h1, .video-stretching-exsercises-container h1 {
-         margin: 0em 0 0 0;
+        margin: 0em 0 0 0;
     }
     .top-basic-tab-wind-container {
         width: 100%;
@@ -202,5 +202,5 @@ main-video-container {
     
 }
 @media (min-width: 1024px) {
-      
+    
 }
