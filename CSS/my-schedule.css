@@ -40,10 +40,15 @@ li {
     text-transform: capitalize;
 }
 .hero p {
-    color: rgb(197, 197, 197);
+    font-size: .8em;
+    color: rgb(255, 255, 255);
     font-weight: 300;
     letter-spacing: .5px;
-    color: #A9242B;
+    /* color: #A9242B; */
+    background-color: #A9242B;
+    padding: 0 .4em;
+    margin: .5em 0 0 0 ;
+    border-radius: 3px;
     
 }
 
@@ -90,7 +95,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     gap: 2em;
-    padding: 0 15em;
+    padding: 0 5em;
 }
 
 .main-middle-container {
@@ -141,7 +146,7 @@ main {
 
 @media (max-width: 1449px) {
     .main-flex {
-        padding: 0 10em;
+        padding: 0 5em;
     }
 }
 @media (max-width: 1289px) {
@@ -150,10 +155,10 @@ main {
     }
 }
 @media (max-width: 753px) {
-    .main-flex {
+    /* .main-flex {
         padding:  0em;
     }
-    
+     */
     .hero p {
         font-size: .8em;
     }
@@ -323,5 +328,5 @@ months-all-mob h1{
     margin-bottom: 5em;
 }
 .today {
-    border: 5px solid black;
+    border: 3px solid rgb(255, 255, 255);
 }
