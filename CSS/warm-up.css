@@ -169,6 +169,7 @@ main-video-container {
         padding: 0 1em;
         position: relative;
         border-left: 1px solid #00113c;
+        background-color: rgb(255, 255, 255);
     }
     .main-video-content::after{
         content: "";
