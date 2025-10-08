@@ -321,6 +321,9 @@ months-all-mob h1{
     background-color: #dd444b;
     color: white;
 }
+#training:hover {
+    background-color: #b6383e;
+}
 .finished {
     opacity: .1;
 }
@@ -330,4 +333,9 @@ months-all-mob h1{
 }
 .today {
     border: 3px solid rgb(255, 255, 255);
+}
+.welcome-percona-name {
+    position: absolute;
+    top: 150px;
+    font-style: italic;
 }
