@@ -2,8 +2,18 @@
 
 /* snowing */
 
+/* #167e56 */
 
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s ease-in;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 .snowflake {
   
   color: #fff;
@@ -130,6 +140,10 @@
 }
 /* snowing */
 
+body {
+  background-image: url(../images/winter/blurred-winter-background-with-snowflakes-free-vector.jpg);
+  background-size: 30000px;
+}
 
 .button {
   position: relative;
@@ -164,3 +178,83 @@
 .display-none {
   display: block;
 }
+
+
+
+.main-middle-title {
+  width: 100%;
+  background-color: #A9242B;
+  margin: 0;
+  padding: 1em;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-middle-container {
+  background-color: #167e56;
+    width: fit-content;
+    text-align: center;
+    height: 320px;
+    position: relative;
+    border-bottom-right-radius: 5em;
+    border-bottom-left-radius: 1em;
+}
+.main-middle-container::before {
+  content: '';
+	display: block;
+	position: absolute;
+	top: -7px;
+	left: -5px;
+	right: 0;
+	height: 23px;
+	background: 
+  url(../images/winter/left.png)no-repeat 0 0,
+  url(../images/winter/left.png)no-repeat 20% 0,
+  url(../images/winter/left.png)no-repeat 60% 0,
+  url(../images/winter/moddle.png)no-repeat 15% 0,
+  url(../images/winter/moddle.png)no-repeat 75% 0,
+  url(../images/winter/moddle.png)no-repeat 45% 0,
+  url(../images/winter/moddle.png)no-repeat 95% 0,
+  url(../images/winter/right.png)no-repeat 35% 0,
+  url(../images/winter/right.png)no-repeat 52% 0,
+  url(../images/winter/right.png)no-repeat 102% 0;
+  z-index: 1;
+  
+}
+
+
+
+.last-month {
+  opacity: .5;
+}
+.main-middle {
+  margin-top: 3.5em;
+}
+
+.today {
+  border: 3px solid rgb(255, 255, 255);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+footer {
+  background-image: url(../images/winter/footer-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  position: relative;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+}
+
+/* font-family: "Alex Brush", cursive; */
+
